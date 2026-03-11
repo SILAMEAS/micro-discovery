@@ -2,5 +2,5 @@ spring:
   application:
     name: discovery
   config:
-    import: optional:configserver:http://localhost:8888
+    import: optional:configserver:${URI_CONFIG_SERVER}
 
